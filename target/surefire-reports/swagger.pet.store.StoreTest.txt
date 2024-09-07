@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: swagger.pet.store.StoreTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in swagger.pet.store.StoreTest

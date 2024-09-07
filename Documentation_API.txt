@@ -1,0 +1,13 @@
+Test Scenarios Path: 
+The test scenarios are organized in the path src/test/java/swagger/pet/store/. In this location, scenarios are categorized by functionality and include validations for various aspects, including:
+-Status Codes (statusCode): Verification that API responses return the expected status codes.
+-Response Validations: Checking that response data is correct and meets expectations.
+-Negative Cases: Tests to ensure the API handles incorrect inputs or conditions properly.
+
+Common Functionality: 
+To avoid duplicating code in the tests, I created a file named CommonFunctions.js in the path src/test/java/commons/. This file contains a generic function that facilitates API request execution. 
+By using this function, the code in the test scenarios is simplified, and the maintainability of the project is improved.
+
+Files and Data: 
+The data required for some of the test scenarios is located in the src/test/resources folder. This location contains JSON files that provide specific data used in the tests. 
+Storing data in this folder makes it easy to access and use in the test scenarios.
